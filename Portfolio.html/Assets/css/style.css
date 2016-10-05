@@ -213,3 +213,32 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+/* Media Query */
+@media screen and (min-width:980px){
+		head,body,footer{
+		margin-right:inherit;
+		display: inherit;
+		position:inherit;	}
+}
+@media only screen and (min-width: 640px)
+    and (max-width: 768px){
+	header { 
+	top: 0px;
+    position: static;
+    display: block;	}
+}
+@media only screen and (min-width:640px) 
+    and (max-width: 768px){
+	nav {
+	clear:right;
+	margin-left:200px;
+	float:left;  }
+}
+@media only screen and (min-width: 640px)
+    and (max-width: (768px){
+    .sidebar {		
+ 	clear: right;
+	margin-left:0px;
+	float:left;
+	display:inline-block;}
+}
